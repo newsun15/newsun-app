@@ -1,0 +1,170 @@
+/* Empty. Add your own CSS if you like */
+
+/* KoPub Dotum */
+@font-face {
+  font-family: 'KoPub Dotum';
+  font-style: normal;
+  font-weight: 300;
+  src: url(//cdn.jsdelivr.net/font-kopub/1.0/KoPubDotum-Light.eot);
+  src: url(//cdn.jsdelivr.net/font-kopub/1.0/KoPubDotum-Light.eot?#iefix) format('embedded-opentype'),
+       url(//cdn.jsdelivr.net/font-kopub/1.0/KoPubDotum-Light.woff) format('woff'),
+       url(//cdn.jsdelivr.net/font-kopub/1.0/KoPubDotum-Light.ttf) format('truetype');
+}
+@font-face {
+ font-family: 'KoPub Dotum';
+ font-style: normal;
+ font-weight: 400;
+ src: url(//cdn.jsdelivr.net/font-kopub/1.0/KoPubDotum-Medium.eot);
+ src: url(//cdn.jsdelivr.net/font-kopub/1.0/KoPubDotum-Medium.eot?#iefix) format('embedded-opentype'),
+ url(//cdn.jsdelivr.net/font-kopub/1.0/KoPubDotum-Medium.woff) format('woff'),
+ url(//cdn.jsdelivr.net/font-kopub/1.0/KoPubDotum-Medium.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'KoPub Dotum';
+  font-style: normal;
+  font-weight: 700;
+  src: url(//cdn.jsdelivr.net/font-kopub/1.0/KoPubDotum-Bold.eot);
+  src: url(//cdn.jsdelivr.net/font-kopub/1.0/KoPubDotum-Bold.eot?#iefix) format('embedded-opentype'),
+       url(//cdn.jsdelivr.net/font-kopub/1.0/KoPubDotum-Bold.woff) format('woff'),
+       url(//cdn.jsdelivr.net/font-kopub/1.0/KoPubDotum-Bold.ttf) format('truetype');
+}
+
+
+.main {
+  text-align: center;
+}
+
+.top {
+}
+
+.sun {
+  z-index: 0;
+  position: absolute;
+  width: 100%;
+  top: 61.71875vh;
+  height: 23.4375vh;
+  margin: auto;
+  padding: 0;
+  background-image: url("../img/sun.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: relative;
+  background-size: contain;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+}
+
+.up {
+  z-index: -100;
+  position: absolute;
+  width: 100%;
+  height: 61.71875vh;
+  top: 0;
+  margin: auto;
+  padding: 0;
+  background-image: url("../img/top.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: relative;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.down {
+  z-index: 300;
+  position: absolute;
+  width: 100%;
+  top: 61.71875vh;
+  height: 38.28125vh;
+  margin: auto;
+  padding: 0;
+  background-image: url("../img/bottom.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: relative;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.share {
+  z-index: 100000;
+  display: block;
+  position: absolute;
+  width: 100%;
+  top: 88.28125vh;
+  height: 7.8125vh;
+  margin: auto;
+  padding: 0;
+  background-image: url("../img/share.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: relative;
+  background-size: contain;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+}
+
+.title {
+  z-index: 1000;
+  color: white;
+}
+
+.time {
+  color: white;
+  width: 100%;
+  margin: auto;
+  z-index: 1000;
+  position: absolute;
+  bottom: 80.46875vh;
+}
+
+.time span {
+  z-index: 1000;
+  font-family: 'Roboto' !important;
+}
+
+.time .hour, .time .min {
+  z-index: 1000;
+  font-size: 11.71875vh;
+}
+
+.time .colon {
+  z-index: 1000;
+  font-size: 14.0625vh;
+}
+
+.title p {
+  font-family: 'KoPub Dotum' !important;
+  color: white;
+  width: 100%;
+  margin: auto;
+  position: absolute;
+  top: 21.5625vh;
+  font-size: 3.125vh;
+  z-index: 1000;
+}
+
+.upwrap {
+  position: absolute;
+  width: 100%;
+  height: 61.71875vh;
+  top: 0;
+  margin: auto;
+  padding: 0;
+}
+
+.downwrap {
+  z-index: 400;
+  position: absolute;
+  width: 100%;
+  top: 61.71875vh;
+  height: 38.28125vh;
+  margin: auto;
+  padding: 0;
+}
